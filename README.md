@@ -16,7 +16,37 @@ Canal oficial da Devsuperior exclusivo para transmitir treinamentos sobre carrei
 
 ## <a name="parte1">1 - Episódio 1: Projeto estruturado</a>
 
+![img.png](img/01_01_metodo_devSup.png)
 
+![img.png](img/01_02_back-front.png)
+
+### API Rest
+
+![img.png](img/01_03-API-REST.png)
+
+### Padrão Rest
+
+- Cliente/servidor com HTTP
+- Comunicação stateless (*)
+- Interface uniforme, formato padronizado (*)
+- Cache
+- Sistema em camadas
+- Código sob demanda (opcional)
+
+https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api
+
+![img.png](img/01_04_padrao.png)
+
+### Padrão camadas
+
+![img.png](img/01_05_padrao-camadas.png)
+
+- Baixar projeto referência pronto:
+  https://github.com/devsuperior/dslist-backend
+- Criar projeto / lib Maven
+- Salvar no Github
+- Arquivos Properties, entidade Game, ORM - Seed dos games
+- GameMinDTO, GameRepository, GameService, GameController
 
 [Voltar ao Índice](#indice)
 
