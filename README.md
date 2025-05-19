@@ -48,6 +48,17 @@ https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api
 - Arquivos Properties, entidade Game, ORM - Seed dos games
 - GameMinDTO, GameRepository, GameService, GameController
 
+
+
+
+
+
+
+
+
+
+
+
 [Voltar ao Índice](#indice)
 
 ---
