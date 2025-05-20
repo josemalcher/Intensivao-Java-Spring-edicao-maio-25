@@ -49,16 +49,6 @@ https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api
 - GameMinDTO, GameRepository, GameService, GameController
 
 
-
-
-
-
-
-
-
-
-
-
 [Voltar ao Índice](#indice)
 
 ---
@@ -66,6 +56,17 @@ https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api
 
 ## <a name="parte2">2 - Episódio 2: Domínio, consultas</a>
 
+### Relacionamentos
+
+![img.png](img/02_01_relacionamentos.png)
+
+- Baixar projeto referência pronto:
+  https://github.com/devsuperior/dslist-backend
+- Implementar modelo de domínio
+- Atualizar seed da base de dados
+- GameDTO, busca game por id
+- Busca totas listas em /lists
+- Consulta SQL, projection, busca de games por lista
 
 
 [Voltar ao Índice](#indice)

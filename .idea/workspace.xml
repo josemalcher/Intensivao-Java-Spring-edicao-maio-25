@@ -4,37 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/controllers/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/dto/GameMinDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/repositories/GameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/services/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Intensivao-Java-Spring-edicao-maio-25.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Intensivao-Java-Spring-edicao-maio-25.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/src/main/java/com/devsuperior/dslist/DslistApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/src/main/java/com/devsuperior/dslist/entities/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/src/main/resources/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/src/main/resources/import.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/bin/src/test/java/com/devsuperior/dslist/DslistApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/entities/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intensivao-Java-Spring-edicao-maio-25/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intensivao-Java-Spring-edicao-maio-25/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intensivao-Java-Spring-edicao-maio-25/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intensivao-Java-Spring-edicao-maio-25/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intensivao-Java-Spring-edicao-maio-25/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intensivao-Java-Spring-edicao-maio-25/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intensivao-Java-Spring-edicao-maio-25/src/main/resources/application.properties" beforeDir="false" />
+    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment="GameMinDTO, GameRepository, GameService, GameController">
+      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/entities/Belonging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/entities/BelongingPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/entities/GameList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/02_01_relacionamentos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="José Malcher Jr. &lt;contato@josemalcher.net&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -98,6 +79,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\josem\Documents\workspace\Intensivao-Java-Spring-edicao-maio-25\PROJETOS\Projeto01-DS-LIST\dslist\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josem\Documents\workspace\Intensivao-Java-Spring-edicao-maio-25\img" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DslistApplication">
     <configuration name="DsalGame" type="Application" factoryName="Application">
@@ -139,11 +123,26 @@
       <workItem from="1747703942012" duration="317000" />
       <workItem from="1747704304959" duration="37000" />
       <workItem from="1747704351399" duration="180000" />
-      <workItem from="1747704770815" duration="8968000" />
+      <workItem from="1747704770815" duration="11626000" />
     </task>
+    <task id="LOCAL-00001" summary="GameMinDTO, GameRepository, GameService, GameController">
+      <option name="closed" value="true" />
+      <created>1747747640248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747747640249</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="GameMinDTO, GameRepository, GameService, GameController" />
+    <option name="LAST_COMMIT_MESSAGE" value="GameMinDTO, GameRepository, GameService, GameController" />
   </component>
 </project>
