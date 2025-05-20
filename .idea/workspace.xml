@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment="Atualizar seed da base de dados">
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/dto/GameDTO.java" afterDir="false" />
+    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment="GameDTO, busca game por id">
+      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/controllers/GameListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/dto/GameListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/repositories/GameListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/services/GameListService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/services/GameService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +81,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\josem\Documents\workspace\Intensivao-Java-Spring-edicao-maio-25\img" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.devsuperior.dslist.controllers" />
+      <recent name="com.devsuperior.dslist.services" />
+      <recent name="com.devsuperior.dslist.repositories" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DslistApplication">
     <configuration name="DsalGame" type="Application" factoryName="Application">
@@ -122,7 +128,7 @@
       <workItem from="1747704304959" duration="37000" />
       <workItem from="1747704351399" duration="180000" />
       <workItem from="1747704770815" duration="12986000" />
-      <workItem from="1747760391746" duration="4724000" />
+      <workItem from="1747760391746" duration="7449000" />
     </task>
     <task id="LOCAL-00001" summary="GameMinDTO, GameRepository, GameService, GameController">
       <option name="closed" value="true" />
@@ -148,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747751342260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GameDTO, busca game por id">
+      <option name="closed" value="true" />
+      <created>1747770317373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747770317373</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +174,7 @@
     <MESSAGE value="GameMinDTO, GameRepository, GameService, GameController" />
     <MESSAGE value="Implementar modelo de domínio" />
     <MESSAGE value="Atualizar seed da base de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizar seed da base de dados" />
+    <MESSAGE value="GameDTO, busca game por id" />
+    <option name="LAST_COMMIT_MESSAGE" value="GameDTO, busca game por id" />
   </component>
 </project>
