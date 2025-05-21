@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment="Consulta SQL, projection, busca de games por lista">
-      <change afterPath="$PROJECT_DIR$/Episodio-3-Homologacao-CORS/00-apoio/ijs-aula3-253796.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/system.properties" afterDir="false" />
+    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment="Deploy Ready">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/repositories/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/repositories/GameRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Intensivao-Java-Spring-edicao-maio-25/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intensivao-Java-Spring-edicao-maio-25/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,41 +45,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DsalGame.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Maven.dslist.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.DslistApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/josem/Documents/workspace/Intensivao-Java-Spring-edicao-maio-25/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DsalGame.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven.dslist.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.DslistApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/josem/Documents/workspace/Intensivao-Java-Spring-edicao-maio-25/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\josem\Documents\workspace\Intensivao-Java-Spring-edicao-maio-25\PROJETOS\Projeto01-DS-LIST\dslist\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josem\Documents\workspace\Intensivao-Java-Spring-edicao-maio-25\Episodio-3-Homologacao-CORS" />
       <recent name="C:\Users\josem\Documents\workspace\Intensivao-Java-Spring-edicao-maio-25\img" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -133,7 +138,7 @@
       <workItem from="1747704770815" duration="12986000" />
       <workItem from="1747760391746" duration="10913000" />
       <workItem from="1747792484135" duration="1406000" />
-      <workItem from="1747828814895" duration="3656000" />
+      <workItem from="1747828814895" duration="5708000" />
     </task>
     <task id="LOCAL-00001" summary="GameMinDTO, GameRepository, GameService, GameController">
       <option name="closed" value="true" />
@@ -183,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747793708385</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Deploy Ready">
+      <option name="closed" value="true" />
+      <created>1747835469181</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747835469181</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +211,7 @@
     <MESSAGE value="GameDTO, busca game por id" />
     <MESSAGE value=" Busca totas listas em lists" />
     <MESSAGE value="Consulta SQL, projection, busca de games por lista" />
-    <option name="LAST_COMMIT_MESSAGE" value="Consulta SQL, projection, busca de games por lista" />
+    <MESSAGE value="Deploy Ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deploy Ready" />
   </component>
 </project>
