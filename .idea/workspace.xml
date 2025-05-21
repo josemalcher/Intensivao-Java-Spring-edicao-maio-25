@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment="GameDTO, busca game por id">
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/controllers/GameListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/dto/GameListDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/repositories/GameListRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/services/GameListService.java" afterDir="false" />
+    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment=" Busca totas listas em lists">
+      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/projections/GameMinProjection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/controllers/GameListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/controllers/GameListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/dto/GameMinDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/dto/GameMinDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/repositories/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/repositories/GameRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/services/GameService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +129,8 @@
       <workItem from="1747704304959" duration="37000" />
       <workItem from="1747704351399" duration="180000" />
       <workItem from="1747704770815" duration="12986000" />
-      <workItem from="1747760391746" duration="7449000" />
+      <workItem from="1747760391746" duration="10913000" />
+      <workItem from="1747792484135" duration="1063000" />
     </task>
     <task id="LOCAL-00001" summary="GameMinDTO, GameRepository, GameService, GameController">
       <option name="closed" value="true" />
@@ -162,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747770317373</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" Busca totas listas em lists">
+      <option name="closed" value="true" />
+      <created>1747773429879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747773429879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +185,7 @@
     <MESSAGE value="Implementar modelo de domínio" />
     <MESSAGE value="Atualizar seed da base de dados" />
     <MESSAGE value="GameDTO, busca game por id" />
-    <option name="LAST_COMMIT_MESSAGE" value="GameDTO, busca game por id" />
+    <MESSAGE value=" Busca totas listas em lists" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Busca totas listas em lists" />
   </component>
 </project>
