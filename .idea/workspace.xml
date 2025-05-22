@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment="homologacao ok">
-      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment="WebConfig" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +131,7 @@
       <workItem from="1747704770815" duration="12986000" />
       <workItem from="1747760391746" duration="10913000" />
       <workItem from="1747792484135" duration="1406000" />
-      <workItem from="1747828814895" duration="8770000" />
+      <workItem from="1747828814895" duration="9063000" />
     </task>
     <task id="LOCAL-00001" summary="GameMinDTO, GameRepository, GameService, GameController">
       <option name="closed" value="true" />
@@ -200,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747837688096</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="WebConfig">
+      <option name="closed" value="true" />
+      <created>1747872240012</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747872240012</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +222,7 @@
     <MESSAGE value="Consulta SQL, projection, busca de games por lista" />
     <MESSAGE value="Deploy Ready" />
     <MESSAGE value="homologacao ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="homologacao ok" />
+    <MESSAGE value="WebConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="WebConfig" />
   </component>
 </project>
