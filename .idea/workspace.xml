@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment="Deploy Ready">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="cfcee735-b8c0-407f-960b-e0f2693affd6" name="Changes" comment="homologacao ok">
+      <change afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/repositories/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/java/com/devsuperior/dslist/repositories/GameRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PROJETOS/Projeto01-DS-LIST/dslist/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intensivao-Java-Spring-edicao-maio-25/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intensivao-Java-Spring-edicao-maio-25/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +134,7 @@
       <workItem from="1747704770815" duration="12986000" />
       <workItem from="1747760391746" duration="10913000" />
       <workItem from="1747792484135" duration="1406000" />
-      <workItem from="1747828814895" duration="5708000" />
+      <workItem from="1747828814895" duration="8770000" />
     </task>
     <task id="LOCAL-00001" summary="GameMinDTO, GameRepository, GameService, GameController">
       <option name="closed" value="true" />
@@ -196,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747835469181</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="homologacao ok">
+      <option name="closed" value="true" />
+      <created>1747837688096</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747837688096</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +216,7 @@
     <MESSAGE value=" Busca totas listas em lists" />
     <MESSAGE value="Consulta SQL, projection, busca de games por lista" />
     <MESSAGE value="Deploy Ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deploy Ready" />
+    <MESSAGE value="homologacao ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="homologacao ok" />
   </component>
 </project>
